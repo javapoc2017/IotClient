@@ -1,8 +1,9 @@
 setup:
-install node
-install ruby
-----------------
+install node node-v6.9.5-x64
+install ruby rubyinstaller-2.3.3-x64
+---------------- after software installed
 Command line executions:
+gem install compass
 npm install -g yo bower grunt-cli
 npm install -g generator-angular
 ------------------------
@@ -14,7 +15,7 @@ grunt server
 
 #Enjoy from login page :-)
 -------------------------------
-(for compass missing)if any issues install execute>gem install compass
+(for compass missing)if any issues install execute>gem install compass (google) :-(
 
 https://www.sitepoint.com/kickstart-your-angularjs-development-with-yeoman-grunt-and-bower/
 
