@@ -8,7 +8,7 @@
  * Controller of the iotClientApp
  */
 angular.module('iotClientApp')
-  .controller('DashboardCtrl', function () {
+  .controller('dashboardCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

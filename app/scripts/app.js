@@ -46,10 +46,40 @@ angular
               controller:'RegistrationCtrl',
               
           
+        }).state('Categories', {
+              url: '/Categories',
+              templateUrl: 'views/Categories.html' ,
+              controller:'CategoriesCtrl',
+              
+          
+        }).state('organisations', {
+              url: '/organisations',
+              templateUrl: 'views/organisations.html' ,
+              controller:'organisations',
+              
+          
+        }).state('locations', {
+              url: '/locations',
+              templateUrl: 'views/locations.html' ,
+              controller:'locations',
+              
+          
+        }).state('gateways', {
+              url: '/gateways',
+              templateUrl: 'views/gateways.html' ,
+              controller:'gateways',
+              
+          
+        }).state('devices', {
+              url: '/devices',
+              templateUrl: 'views/devices.html' ,
+              controller:'devices',
+              
+          
         });
         
   }).run(function ($rootScope,$http) {
-    $rootScope.URL='http://localhost:8080/v1/iot/customer';
+    $rootScope.URL='http://localhost:8080';
     // $http.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
   // Send this header only in post requests. Specifies you are sending a JSON object
  // $http.defaults.headers.post['dataType'] = 'json';

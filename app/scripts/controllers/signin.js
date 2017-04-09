@@ -25,6 +25,8 @@ angular.module('iotClientApp')
     "device": [],
     "orgid": user.org
 };   
+
+//$state.go('dashboard');
                 serviceCalls.login(userObject).then(function(response){
 
                 	console.log('registered successfully');
